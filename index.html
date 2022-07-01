@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Site</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/ico" href="./images/favicon.ico">
+</head>
+<body class="page dark-mode">
+    
+    <!-- Header section starts -->
+    <header>
+        <a href="#" class="logo">
+            frimps
+        </a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Search Form -->
+    <form action="" id="search-form">
+        <input type="search" name="" id="search-box" placeholder="search...">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>tasty jollof</h3>
+                        <p>Enjoy our absolutely delectable dish of tasty jollof rice</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/jollof-rice.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>fried rice</h3>
+                        <p>Enjoy our absolutely delectable dish of tasty jollof rice</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/friedRice.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>delicious noodles</h3>
+                        <p>Enjoy our absolutely delectable dish of tasty jollof rice</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/noodles.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- dishes section starts -->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="./images/dish-1.png" alt="">
+                <h3>waakye</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH₵ 10.90</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="./images/dish-2.png" alt="">
+                <h3>fried rice</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH₵ 10.90</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="./images/dish-3.png" alt="">
+                <h3>tuo-zaafi</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH₵ 15.90</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="./images/dish-4.png" alt="">
+                <h3>fied rice & fish</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH₵ 18.90</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="./images/dish-5.png" alt="">
+                <h3>tasty burgers</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH₵ 12.90</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="./images/dish-6.png" alt="">
+                <h3>pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH₵ 14.90</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- dishes section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./images/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>experience the finest foods</h3>
+                <p>Enjoy the best of foods the world has to offer.We give you the best of meals and a satisfaction that cant be gotten from anywhere else</p>
+                <p>We also have the very best of staff that ensure your total comfort and happiness. Whatever you want we have; just relax and enjoy!</p>
+                <a href="" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends --> 
+
+    <!-- Icon section starts -->
+    <section class="services" id="services">
+    
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/delivery.png" alt="">
+                <h3>fast delivery</h3>
+                <p class="description">
+                    We take pleasure in our ability to respond quickly. We'll deliver anything you order or mail in minutes.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="./images/24_hours.png" alt="">
+                <h3>24 hour service</h3>
+                <p class="description">
+                    We provide  our services 24/7 everyday. Customers are sure to get a hold of us with their food requests.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="./images/chef.png" alt="">
+                <h3>fast delivery</h3>
+                <p class="description">
+                    We have the best of  chefs at your disposal to cater for your needs.
+                </p>
+            </div>   
+        </div>
+    </section>
+
+    <!-- Icon section ends -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <h3 class="heading">today's speciality</h3>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>gari & beans</h3>
+                    <p>Well known as "Gobe" is a simple and popular meal made of beans and gari.</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>banku with tilapia</h3>
+                    <p>A reasonably priced dinner that also fills you up. Enjoy the most delicious banku at our spot</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>fufu and light soup</h3>
+                    <p>This amazing and tasty dish is prepared with lots of love</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>fufu and soup</h3>
+                    <p>Enjoy the most memorable dishes that remind you of home.</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>plantain & kontomire</h3>
+                    <p>Our plantain and kontomire is carefully made with love and the freshest of ingredients.</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>waakye</h3>
+                    <p>Our waakye is to die for. We leave you wanting more everytime.</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>jollof with chicken</h3>
+                    <p>Our jollof and chicken is to die for. it's finger-licking good.</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>mashed plantain with egg</h3>
+                    <p>Ah! the food of gods. Enjoy this tasty meal of mashed plantain garshshed with love.</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>tuo-zaafi</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, asperiores.</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">GH₵ 10.90</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- review section starts -->
+    <section class="review" id="review">
+        <h3 class="sub-heading">customer's review</h3>
+        <h1 class="heading">what they say about us</h1>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    
+                    <div class="user">
+                        <img src="./images/pic-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Abena Mary</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Yummers! The waitress was prompt and polite. The food was cooked to perfection. They got a new customer for life!</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    
+                    <div class="user">
+                        <img src="./images/pic-2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Nana Kwame</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>It was much better than I expected.The decor was unique. Make sure to save room for dessert, because that was the best part of the meal!</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    
+                    <div class="user">
+                        <img src="./images/pic-3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Akua Apomaa</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>It was much better than I expected.The waiter did an excellent job. This is definitely a spot I'll be frequenting.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    
+                    <div class="user">
+                        <img src="./images/pic-4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Lawlaw</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>My taste buds are still dancing from our last visit! I was happy to see how clean everything was. I'd give more than 5 stars if I could!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- order section starts -->
+    <section class="order" id="order">
+        <h3 class="sub-heading">order now</h3>
+        <h3 class="heading">free & fast</h3>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="text" placeholder="extra with food">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+
+                <div class="input">
+                    <span>date & time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
+        </form>
+    </section>
+    <!-- order section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">accra</a>
+                <a href="#">koforidua</a>
+                <a href="#">mamfe</a>
+                <a href="#">spintex</a>
+                <a href="#">dansoman</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">review</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+233-556-402-727</a>
+                <!-- <a href="#">+233-542-730-363</a> -->
+                <a href="#">jkwakye001@gmail.com</a>
+                <a href="#">accra, ghana</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">linkedin</a>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="credit">copyright @ 2022 by <span>Frimps Tech</span></div>
+        </div>
+        
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader -->
+    <div class="loader-container">
+        <img src="./images/food.gif" alt="">
+    </div>
+    <!-- loader ends -->
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Custom js link-->
+    <script src="./main.js"></script>
+</body>
+</html>
